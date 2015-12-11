@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+        android:background="@drawable/about_app_background"
+        android:id="@+id/relativeLayout"
+        android:nestedScrollingEnabled="true">
+
+
+
+        <TextView android:text="Quick Tweet" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            android:id="@+id/app_name"
+            android:textColor="#3277b9"
+            android:textSize="35sp"
+            android:textStyle="bold|italic"
+             />
+
+        <TextView android:text="Created by Team_NULL" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:id="@+id/team_name"
+            android:textColor="#0f273f"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView android:text="Contact us" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:id="@+id/contact"
+            android:textColor="#0f273f"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:layout_centerHorizontal="true" />
+
+        <TextView android:text="https://twitter.com/team__NULLs" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:id="@+id/URL"
+            android:textColor="#194169"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            android:layout_below="@+id/contact"
+            android:layout_centerHorizontal="true" />
+
+        <TextView android:text="Copyright 2015 \u00a9 Team_NULL All rights Reserved" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/copyright"
+            android:textColor="#000000"
+            android:textSize="11sp"
+            android:textStyle="bold|italic"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+
+
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/app_logo"
+            android:id="@+id/imageView"
+            android:layout_marginTop="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            />
+
+
+    </RelativeLayout>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="teamnull.test" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Quick Tweet"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="Quick Tweet" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="4eb9fd0242c6f4c399d42086d621ccd17a2bb034" />
+
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2" >
+        </activity>
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/title_activity_main3" >
+        </activity>
+        <activity
+            android:name=".Main4Activity"
+            android:label="@string/title_activity_main4" >
+        </activity>
+    </application>
+
+</manifest>
