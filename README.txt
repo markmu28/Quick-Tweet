@@ -19,4 +19,7 @@ message "Initial commit" |    ---> mark_keystore.jks
                          |    ---> gradlew.bat
                          |    ---> setting.gradle
                          
-Note that these files need to be downloaded to be viewed.  
+Note that these files need to be downloaded to be viewed. 
+To run the app, download the above files and run them 
+in a Android Studio emulator. Alternativly, the app is on 
+the Google play store for download. 
